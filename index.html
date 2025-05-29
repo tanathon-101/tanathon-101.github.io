@@ -2,100 +2,127 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TANATHON AKKO – .NET Backend Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TANATHON AKKO - .NET Backend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 2rem; background: #f9f9f9; }
-    h1, h2 { color: #2c3e50; }
-    .section { margin-bottom: 2rem; }
-    .section h2 { border-bottom: 2px solid #2c3e50; padding-bottom: 0.3rem; }
-    ul { padding-left: 1.2rem; }
-    .contact p, .education p, .profile p, .skills p { margin: 0.2rem 0; }
-    .highlight { font-weight: bold; }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f4f5;
+      color: #1f2937;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #111827;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #6b7280;
+    }
+    section {
+      max-width: 800px;
+      margin: 0 auto 2rem auto;
+      padding: 1.5rem;
+      background-color: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #374151;
+    }
+    ul, p {
+      margin-bottom: 1rem;
+    }
+    ul li {
+      margin-left: 1.5rem;
+      list-style-type: disc;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
+  <header>
+    <h1>TANATHON AKKO</h1>
+    <p>.NET Backend Developer</p>
+  </header>
 
-  <h1>TANATHON AKKO</h1>
-  <p><strong>.NET Backend Developer</strong></p>
-
-  <div class="section contact">
-    <h2>📞 Contact Information</h2>
+  <section>
+    <h2>📱 Contact</h2>
     <p>Phone: 065-6010200</p>
     <p>Email: <a href="mailto:tanaton.akko@gmail.com">tanaton.akko@gmail.com</a></p>
-  </div>
+  </section>
 
-  <div class="section profile">
+  <section>
     <h2>🧑‍💻 Profile</h2>
-    <p>Highly skilled .NET Core backend developer with over 5 years of experience in designing, developing, and maintaining web applications. Proficient in C# and ASP.NET Core, specializing in building robust, scalable, and efficient backend solutions. Experienced in developing RESTful APIs, optimizing application performance, and integrating with front-end technologies. Strong problem-solving skills and the ability to work effectively in Agile environments.</p>
-  </div>
+    <p>Highly skilled .NET Core backend developer with over 5 years of experience in designing, developing, and maintaining web applications. Proficient in C# and ASP.NET Core, specializing in building robust, scalable, and efficient backend solutions. Strong problem-solving skills and the ability to work effectively in Agile environments.</p>
+  </section>
 
-  <div class="section experience">
+  <section>
     <h2>🏢 Experience</h2>
-    <p><span class="highlight">NgernTidLor - Backend .NET Developer</span> | 2021-Present</p>
+    <p><strong>NgernTidLor</strong> - Backend .NET Developer | 2021-Present</p>
     <ul>
-      <li>Developed and implemented APIs.</li>
-      <li>Conducted unit testing and integration testing.</li>
-      <li>Maintained and debugged applications.</li>
-      <li>Worked with Agile methodologies.</li>
-      <li>Updated API specifications and system diagrams.</li>
-      <li>Built and deployed applications using CI/CD pipelines (IIS, AWS, GitHub Action).</li>
-      <li>Provided UAT support.</li>
-      <li>Designed database domains in collaboration with software architects.</li>
-      <li>Reviewed code before deployment.</li>
+      <li>Developed and implemented APIs</li>
+      <li>Conducted unit testing and integration testing</li>
+      <li>Built CI/CD pipelines with IIS, AWS, GitHub Action</li>
     </ul>
-
-    <p><span class="highlight">PTT - Backend .NET Developer (Outsource)</span> | 2020-2021</p>
+    <p><strong>PTT</strong> - Backend .NET Developer (Outsource) | 2020-2021</p>
     <ul>
-      <li>Developed and implemented APIs.</li>
-      <li>Conducted integration testing.</li>
-      <li>Maintained and fixed bugs in applications hosted on IIS.</li>
-      <li>Updated technical specifications.</li>
+      <li>Implemented RESTful APIs and conducted integration testing</li>
+      <li>Maintained and debugged IIS applications</li>
     </ul>
-
-    <p><span class="highlight">AIS - Backend .NET Developer (Outsource)</span> | 2018-2020</p>
+    <p><strong>AIS</strong> - Backend .NET Developer (Outsource) | 2018-2020</p>
     <ul>
-      <li>Developed and implemented software solutions based on client requirements (APIs).</li>
-      <li>Designed database domains in collaboration with senior developers.</li>
-      <li>Conducted software testing and debugging before deployment.</li>
-      <li>Maintained and fixed bugs in applications.</li>
-      <li>Built and deployed applications using CI/CD pipelines (Azure).</li>
-      <li>Worked with Agile methodologies.</li>
+      <li>Developed API-based backend systems for clients</li>
+      <li>CI/CD deployment with Azure</li>
     </ul>
-  </div>
+  </section>
 
-  <div class="section skills">
-    <h2>🛠 Skills</h2>
+  <section>
+    <h2>🔧 Skills</h2>
     <ul>
-      <li>Programming: C#, .NET, .NET Core</li>
-      <li>Backend Development: Web Services, API Development</li>
-      <li>ORM: Dapper, Entity Framework Core (EF Core)</li>
-      <li>Databases: SQL Server, MySQL, MongoDB</li>
-      <li>Version Control: GitHub, GitLab</li>
-      <li>Testing: Unit Testing (xUnit, NUnit), Mocking (Moq), Integration Testing</li>
-      <li>Deployment: CI/CD Pipelines (Azure, IIS, AWS)</li>
-      <li>Methodologies: Agile, Scrum</li>
-      <li>Other Skills: Requirement Analysis, Team Collaboration, Code Reviews, Performance Optimization</li>
-      <li>API: RESTful API, Swagger/OpenAPI for documentation</li>
+      <li>C#, .NET Core, ASP.NET</li>
+      <li>RESTful API, Swagger/OpenAPI</li>
+      <li>Dapper, Entity Framework Core</li>
+      <li>SQL Server, MongoDB, MySQL</li>
+      <li>CI/CD: Azure, AWS, IIS</li>
+      <li>Testing: xUnit, NUnit, Moq</li>
     </ul>
-  </div>
+  </section>
 
-  <div class="section education">
+  <section>
     <h2>🎓 Education</h2>
-    <p><strong>Ubon Ratchathani Rajabhat University</strong></p>
-    <p>Bachelor’s Degree in Computer Science (Software Engineering)</p>
-    <p>2014-2018 | GPA: 3.79</p>
-  </div>
+    <p><strong>Ubon Ratchathani Rajabhat University</strong><br>
+    B.Sc. in Computer Science (Software Engineering), GPA: 3.79 (2014–2018)</p>
+  </section>
 
-  <div class="section hobbies">
-    <h2>🎯 Hobbies</h2>
+  <section>
+    <h2>🌟 Hobbies</h2>
     <ul>
       <li>Exercise</li>
       <li>Traveling</li>
-      <li>Visiting Cafés</li>
-      <li>Socializing and Hangouts</li>
+      <li>Café hopping</li>
+      <li>Hangouts with friends</li>
     </ul>
-  </div>
-
+  </section>
 </body>
 </html>
